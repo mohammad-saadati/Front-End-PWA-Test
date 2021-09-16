@@ -1,0 +1,61 @@
+.login-header {
+  font-weight: normal;
+  position: relative;
+  background: orange;
+  height: 50vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 280px, 0 200px);
+}
+.snake-badge, .logo {
+  position: absolute;
+}
+.logo {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.snake-badge {
+  top: 4rem;
+  left: 0rem;
+}
+.login-guide {
+  margin: 0.8rem;
+}
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  text-align: right;
+  font-weight: normal;
+  display: block;
+  margin: 0.8rem;
+  appearance: none;
+  outline: none;
+  border: rgb(198, 194, 188) 1px solid;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+.login-related-CTA {
+  text-align: right;
+  margin: 0.8rem;
+}
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.action {
+  color: rgb(181, 178, 175);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+button {
+  background-color: rgb(226, 224, 222);
+  border: rgb(186, 181, 176) 1px solid;
+  border-radius: 10px;
+  margin: 0.8rem;
+  padding: 1rem;
+  cursor: pointer;
+}
