@@ -1,0 +1,59 @@
+.avatar-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #80E8D0;
+  transition: all .5s ease;
+}
+.content {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.some-text {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.delete {
+  cursor: pointer;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262626;
+  left: -100%;
+  transition: all 1s ease;
+}
+.activate {
+  left: 0%;
+}
+.slide-right {
+  margin-right: -80px;
+}
+.modal {
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #262626;
+  color: white;
+  padding: 1rem;
+  width: 300px;
+  height: 150px;
+
+}
+.confirm, .cancel {
+  border: 1px solid white;
+  padding: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}

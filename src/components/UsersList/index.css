@@ -1,0 +1,31 @@
+.logo-image {
+  text-align: center;
+  margin-top: 1rem;
+}
+.filters {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  list-style: none;
+}
+.filter {
+  display: flex;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #C4C4C4;
+  color: #262626;
+  cursor: pointer;
+}
+.active {
+  background-color: #C4C4C4;
+}
+.yes {
+  color:#262626;
+}
+/* #FFB21A
+#80E8D0
+#262626
+#C4C4C4
+#F4F4F4 */
